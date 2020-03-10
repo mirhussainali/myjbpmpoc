@@ -38,7 +38,7 @@
       <artifactId>kie-api</artifactId>
       <version>${runtime.version}</version>
     </dependency>
-
+  
     <dependency>
       <groupId>org.jbpm</groupId>
       <artifactId>jbpm-test</artifactId>
