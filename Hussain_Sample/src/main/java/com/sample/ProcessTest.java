@@ -1,6 +1,5 @@
 package com.sample;
 
-import java.util.Hashtable;
 import org.jbpm.test.JbpmJUnitBaseTestCase;
 import org.junit.Test;
 import org.kie.api.runtime.KieSession;
