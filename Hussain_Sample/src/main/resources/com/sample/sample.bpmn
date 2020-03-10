@@ -10,7 +10,7 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_1-_2</bpmn2:incoming>
       <bpmn2:outgoing>_2-_3</bpmn2:outgoing>
-      <bpmn2:script>System.out.println(&quot;Hello World - Its Tuesday&quot;);</bpmn2:script>
+      <bpmn2:script>System.out.println(&quot;Hello World - Its Tuesday Afternoon&quot;);</bpmn2:script>
     </bpmn2:scriptTask>
     <bpmn2:startEvent id="_1">
       <bpmn2:extensionElements>
@@ -36,29 +36,29 @@
     <bpmndi:BPMNPlane id="BPMNPlane_Process_1" bpmnElement="com.sample.bpmn.hello">
       <bpmndi:BPMNShape id="BPMNShape_ScriptTask_1" bpmnElement="_2">
         <dc:Bounds height="48.0" width="80.0" x="96.0" y="100.0"/>
-        <bpmndi:BPMNLabel>
+        <bpmndi:BPMNLabel id="BPMNLabel_1">
           <dc:Bounds height="15.0" width="29.0" x="121.0" y="116.0"/>
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="BPMNShape_StartEvent_1" bpmnElement="_1">
         <dc:Bounds height="36.0" width="36.0" x="30.0" y="22.0"/>
-        <bpmndi:BPMNLabel/>
+        <bpmndi:BPMNLabel id="BPMNLabel_2"/>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="BPMNShape_EndEvent_1" bpmnElement="_3">
         <dc:Bounds height="36.0" width="36.0" x="210.0" y="22.0"/>
-        <bpmndi:BPMNLabel/>
+        <bpmndi:BPMNLabel id="BPMNLabel_3"/>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="BPMNEdge_SequenceFlow_1" bpmnElement="_1-_2" sourceElement="BPMNShape_StartEvent_1" targetElement="BPMNShape_ScriptTask_1">
         <di:waypoint xsi:type="dc:Point" x="48.0" y="58.0"/>
         <di:waypoint xsi:type="dc:Point" x="48.0" y="124.0"/>
         <di:waypoint xsi:type="dc:Point" x="96.0" y="124.0"/>
-        <bpmndi:BPMNLabel/>
+        <bpmndi:BPMNLabel id="BPMNLabel_4"/>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="BPMNEdge_SequenceFlow_2" bpmnElement="_2-_3" sourceElement="BPMNShape_ScriptTask_1" targetElement="BPMNShape_EndEvent_1">
         <di:waypoint xsi:type="dc:Point" x="176.0" y="124.0"/>
         <di:waypoint xsi:type="dc:Point" x="228.0" y="124.0"/>
         <di:waypoint xsi:type="dc:Point" x="228.0" y="58.0"/>
-        <bpmndi:BPMNLabel/>
+        <bpmndi:BPMNLabel id="BPMNLabel_5"/>
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>

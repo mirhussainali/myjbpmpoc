@@ -2,7 +2,7 @@ package com.sample;
 
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
-
+import java.util.Hashtable;
 import org.jbpm.test.JBPMHelper;
 import org.kie.api.KieBase;
 import org.kie.api.KieServices;
